@@ -1,0 +1,60 @@
+<doctype html> <html>
+<head>
+<title> SEUNG's BIN WEB TEST VERSION </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+ 
+</head>
+<!--생활코딩 자바스크립트 강의를 보며 야간모드를만들었다 문제는 링크랑 id는 야간모드가 안된다
+해결방법을 모르겠다.-->
+<body>
+
+<input id="AND" type="button" value="night" onclick="
+
+ if (document.querySelector('#AND').value === 'night'){
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('#AND').value = 'day';
+ }else{ 
+ document.querySelector('body').style.backgroundColor = 'white';
+ document.querySelector('body').style.color = 'black';
+ document.querySelector('#AND').value = 'night';
+ }
+">
+<!--하 왜 두번클릭하고 한번더 클릭하면 아무 런반응이 없어서 2시간 고민하고 원인을 찾았다
+   else문 마지막 #AND value 값을 value = 'naght';라고 써 놔서 반복이 안되었다 ,... -->
+
+
+ 
+                   
+ <h1> KING SEUNG BIN WEB TEST VERSION</h1>
+
+ <div id="grid">
+  <ol>
+    
+    <li><a href="1.html" class="saw" >목차</a><br></li>
+    <li><a href="2.html" >목차<br></a></li>
+    <li><a href="3.html" >목차<br></a></li>
+  
+    </ol>
+          
+
+  
+<div style="padding-left: 150; padding-top: 50px;">
+<h2 style=>SEUNG BIN's RECORD</h2>
+  <strong><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="title TEST">LINK TEST JUST DO IT</a></strong>
+
+  <p><p>An actor is a person who portrays a character in a performance (also actress; see below).
+    [1] The actor performs "in the flesh" in the traditional medium of the theatre or in modern media such as film, radio,
+     and television. The analogous Greek term is ὑποκριτής (hupokritḗs), literally
+     "one who answers".[2] The actor's interpretation of a role—the art of acting—pertains to
+      the role played, whether based on a real person or fictional character. This can also be considered
+      an "actor's role," which was called this due to scrolls being used in the theaters. Interpretation occurs
+      even when the actor is "playing themselves", as in some forms of experimental performance art.</p>
+  <img src="asd.jpg" width="50%">
+
+</div>
+
+</div>
+
+</body>
